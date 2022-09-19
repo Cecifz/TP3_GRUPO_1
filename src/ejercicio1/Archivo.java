@@ -40,42 +40,6 @@ public class Archivo {
 			
 	}
 	
-
-	/*public void escribe_letra_x_letra(String frase) {
-		try {
-			FileWriter fw = new FileWriter(ruta, true);
-	
-			for (int i = 0; i < frase.length(); i++) {
-					fw.write(frase.charAt(i));
-				}
-			fw.close();
-
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public void lee_letra_x_letra() {
-
-		FileReader entrada;
-		try {
-			entrada = new FileReader(ruta);
-			int c = entrada.read(); //Lee el primer caracter
-			while (c != -1) 
-			{
-				char letra = (char) c;
-				System.out.println(letra);
-				c = entrada.read();
-			}
-			entrada.close();
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-	}*/
-	
-	
 	public void escribe_lineas(String frase) {
 		try 
 		{	
